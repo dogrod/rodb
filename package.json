@@ -1,7 +1,7 @@
 {
-  "name": "project-ar",
-  "version": "1.0.0",
-  "description": "project alfa romeo",
+  "name": "Project-RodB",
+  "version": "0.1.0",
+  "description": "Vue.js 2 family bucket used personal website. Backend supported by LeanCloud.",
   "author": "Rodrick Zhu",
   "private": true,
   "scripts": {

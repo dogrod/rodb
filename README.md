@@ -1,6 +1,6 @@
-# project-RodB
+# Project-RodB
 
-> Vue.js 2/ vue-router/ vuex used personal website. Backend supported by LeanCloud.
+> Vue.js 2 family bucket used personal website. Backend supported by LeanCloud.
 
 ## Build Setup
 
