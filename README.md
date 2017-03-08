@@ -1,6 +1,6 @@
-# project-ar
+# project-RodB
 
-> project alfa romeo
+> Vue.js 2/ vue-router/ vuex used personal website. Backend supported by LeanCloud.
 
 ## Build Setup
 
