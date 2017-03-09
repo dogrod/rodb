@@ -5,37 +5,65 @@
   display: -webkit-flex;
   /* Safari */
   display: flex;
-  &.center{
+
+  &.center {
     justify-content: center;
   }
-  &.vertical{
+
+  &.vertical {
     flex-direction: column;
   }
 }
+// float related class
+.float {
+  &.left {
+    float: left;
+  }
 
+  &.right {
+    float: right;
+  }
+}
 
+.clear-float {
+  &:after {
+    clear: both;
+    content: '.';
+    display: block;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+  }
+}
 // universe margin and padding
-.margin-5{
+.margin-5 {
   margin: 5px;
 }
-.margin-10{
+
+.margin-10 {
   margin: 10px;
 }
-.margin-20{
+
+.margin-20 {
   margin: 20px;
 }
-.margin-30{
+
+.margin-30 {
   margin: 30px;
 }
-.padding-5{
+
+.padding-5 {
   padding: 5px;
 }
-.padding-10{
+
+.padding-10 {
   padding: 10px;
 }
-.padding-20{
+
+.padding-20 {
   padding: 20px;
 }
-.padding-30{
+
+.padding-30 {
   padding: 30px;
 }
