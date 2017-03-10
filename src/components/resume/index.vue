@@ -7,7 +7,7 @@
       <resume-page
         coverSize=1>
         <h2 slot="title">项目经验</h2>
-        <div slot="content">项目经验</div>
+        <div slot="content">项目经验1</div>
       </resume-page>
       <resume-page>
         <h2 slot="title">擅长技能</h2>
