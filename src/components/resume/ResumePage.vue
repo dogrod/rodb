@@ -30,7 +30,7 @@ export default {
   methods: {
     // 处理滚动事件
     handleScroll() {
-      console.log('test code');
+      console.log('test command');
     },
     // 使用闭包方法封装throttle节流函数
     throttle(fn, delay) {
