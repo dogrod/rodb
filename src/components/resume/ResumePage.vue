@@ -29,7 +29,9 @@ export default {
   },
   methods: {
     // 处理滚动事件
-    handleScroll() {},
+    handleScroll() {
+      console.log('test code');
+    },
     // 使用闭包方法封装throttle节流函数
     throttle(fn, delay) {
       let timer = null;
