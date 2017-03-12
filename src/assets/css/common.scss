@@ -14,7 +14,38 @@
     flex-direction: column;
   }
 }
+// font
+.font {
+  &.main-head {
+    @include font( 'bold','#464c5b','16px');
+  }
+
+  &.sub-head {
+    @include font( 'bold','#464c5b','14px');
+  }
+
+  &.small-head {
+    @include font( 'bold','#464c5b','12px');
+  }
+
+  &.text {
+    @include font( 'normal','#657180','12px');
+  }
+
+  &.help {
+    @include font( 'normal','#9ea7b4','12px');
+  }
+
+  &.disabled {
+    @include font( 'normal','#c3cbd6','12px');
+  }
+
+  &.link {
+    @include font( 'normal','#3399ff','12px');
+  }
+}
 // float related class
+
 .float {
   &.left {
     float: left;
@@ -36,6 +67,7 @@
   }
 }
 // universe margin and padding
+
 .margin-5 {
   margin: 5px;
 }
