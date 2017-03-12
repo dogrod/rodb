@@ -3,11 +3,14 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
+import iView from 'iview';
+import 'iview/dist/styles/iview.css';
 import App from './App';
 import store from './store';
 import routeConfig from './router';
 
 Vue.use(VueRouter);
+Vue.use(iView);
 
 Vue.config.productionTip = false;
 

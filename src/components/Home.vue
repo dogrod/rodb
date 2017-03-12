@@ -1,16 +1,18 @@
 <template lang="html">
-
+  <div>
+    home
+    {{msg}}
+  </div>
 </template>
 
 <script>
 export default {
-  created() {
-    this.$router.push({
-      path: '/resume',
-    });
+  computed: {
+    msg() {
+      return this.$store.getters.activePath;
+    },
   },
 };
 </script>
 
-<style lang="css">
-</style>
+<style lang="scss"></style>

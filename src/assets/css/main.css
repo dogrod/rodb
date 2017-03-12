@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro|Bungee+Shade|Cabin+Sketch|Freckle+Face|Fugaz+One|Indie+Flower|Press+Start+2P|Special+Elite|Vampiro+One");
 .flexbox {
   display: -webkit-flex;
   /* Safari */
@@ -80,6 +81,18 @@
 
 .padding-30 {
   padding: 30px; }
+
+@font-face {
+  font-family: 'advent_proregular';
+  src: url("http://om29pccgt.bkt.clouddn.com/fonts/adventpro-regular-webfont.woff2") format("woff2"), url("http://om29pccgt.bkt.clouddn.com/fonts/adventpro-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'vampiro_oneregular';
+  src: url("http://om29pccgt.bkt.clouddn.com/fonts/vampiro-one-587353abdb688-webfont.woff2") format("woff2"), url("http://om29pccgt.bkt.clouddn.com/fonts/vampiro-one-587353abdb688-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
 
 * {
   box-sizing: border-box; }
