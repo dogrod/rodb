@@ -10,8 +10,8 @@ body {
   margin: 0;
   padding: 0;
   font-size: $fontMedium;
-  color: $fontBlack;
-  background: $backgroundGary;
+  color: $content;
+  background: $background;
 
   &::-webkit-scrollbar {
     display: none;
