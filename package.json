@@ -15,6 +15,7 @@
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0"
   },
   "dependencies": {
+    "iview": "^2.0.0-rc.2",
     "vue": "^2.2.1",
     "vue-router": "^2.2.0",
     "vuex": "^2.2.1"
