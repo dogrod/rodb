@@ -26,8 +26,8 @@
                 </Menu-item>
             </div>
             <div class="header-user">
-                <a @click="handleSelect('6')">登陆</a>
-                <a @click="handleSelect('6')">注册</a>
+                <a class="font text" @click="handleSelect('6')">登陆</a>
+                <!-- <a class="font text" @click="handleSelect('6')">注册</a> -->
             </div>
         </Menu>
 </template>
@@ -65,7 +65,8 @@ export default {
 };
 </script>
 
-<style lang="scss" scoped>
+<style lang="scss" scoped>@import "../assets/css/variables.scss";
+
 .header-logo {
     width: 100px;
     height: 30px;
@@ -82,7 +83,10 @@ export default {
     float: right;
     position: absolute;
     top: 0;
-    right: 20px;
+    right: 10px;
+    > :not(:first-child) {
+        margin-left: 5px;
+    }
 }
 .header-nav {
     width: 520px;

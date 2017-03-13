@@ -2,6 +2,19 @@
 @import "mixins.scss";
 @import url( 'https://fonts.googleapis.com/css?family=Advent+Pro|Bungee+Shade|Cabin+Sketch|Freckle+Face|Fugaz+One|Indie+Flower|Press+Start+2P|Special+Elite|Vampiro+One');
 
+// components container
+.box-container{
+  background: #fff;
+  width: 90%;
+  margin: 30px auto 20px;
+  padding: 30px;
+  border-radius: 6px;
+  box-shadow: 0 1px 1px 0 rgba(0,0,0,.1);
+  &.small{
+    width: 400px;
+  }
+}
+// flexbox
 .flexbox {
   display: -webkit-flex;
   /* Safari */
@@ -16,34 +29,33 @@
   }
 }
 // font
-
 .font {
   &.main-head {
-    @include font( 'bold','#464c5b','16px');
+    @include font( bold,#464c5b,16px);
   }
 
   &.sub-head {
-    @include font( 'bold','#464c5b','14px');
+    @include font( bold,#464c5b,14px);
   }
 
   &.small-head {
-    @include font( 'bold','#464c5b','12px');
+    @include font( bold,#464c5b,12px);
   }
 
   &.text {
-    @include font( 'normal','#657180','12px');
+    @include font( normal,#657180,12px);
   }
 
   &.help {
-    @include font( 'normal','#9ea7b4','12px');
+    @include font( normal,#9ea7b4,12px);
   }
 
   &.disabled {
-    @include font( 'normal','#c3cbd6','12px');
+    @include font( normal,#c3cbd6,12px);
   }
 
   &.link {
-    @include font( 'normal','#3399ff','12px');
+    @include font( normal,#3399ff,12px);
   }
 }
 // float related class
