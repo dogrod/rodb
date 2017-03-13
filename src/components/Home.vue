@@ -1,7 +1,6 @@
 <template lang="html">
-  <div>
+  <div class="box-container">
     home
-    {{msg}}
   </div>
 </template>
 
