@@ -1,5 +1,5 @@
 <template lang="html">
-<div box-container>
+<div class="box-container">
   Blog
 </div>
 </template>
